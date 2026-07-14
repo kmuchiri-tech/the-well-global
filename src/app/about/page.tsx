@@ -153,7 +153,15 @@ export default function AboutPage() {
                     src={siteConfig.pastorNina.aboutImage}
                     alt={`Portrait of ${siteConfig.pastorNina.name}`}
                     fill
-                    className="object-cover object-center" className="font-serif text-3xl font-bold text-white sm:text-4xl">
+                    className="object-cover object-center"
+                    sizes="(max-width: 768px) 100vw, 24rem"
+                    priority
+                  />
+                </div>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <h2 id="pastor-nina-heading" className="font-serif text-3xl font-bold text-white sm:text-4xl">
                 {siteConfig.pastorNina.name}
               </h2>
               <p className="mt-2 text-well-blue font-semibold">Founder & Lead Pastor</p>
