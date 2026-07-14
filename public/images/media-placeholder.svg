@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#F5E6E8"/>
-      <stop offset="50%" stop-color="#B8A2C8" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#B8C9EB" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#F4EFF8"/>
+      <stop offset="50%" stop-color="#C4A8E0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#E8DDF5" stop-opacity="0.4"/>
     </linearGradient>
     <linearGradient id="circle" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#B8C9EB"/>
-      <stop offset="50%" stop-color="#2D9CDB"/>
-      <stop offset="100%" stop-color="#003399"/>
+      <stop offset="0%" stop-color="#E8DDF5"/>
+      <stop offset="50%" stop-color="#6B4FA3"/>
+      <stop offset="100%" stop-color="#28346D"/>
     </linearGradient>
   </defs>
   <rect width="640" height="360" fill="url(#bg)"/>
-  <circle cx="320" cy="160" r="48" fill="url(#circle)" opacity="0.35"/>
-  <text x="320" y="250" text-anchor="middle" fill="#0B1A3D" font-family="Georgia, serif" font-size="18" opacity="0.45">Media Placeholder</text>
+  <circle cx="320" cy="160" r="48" fill="url(#circle)" opacity="0.4"/>
+  <text x="320" y="250" text-anchor="middle" fill="#28346D" font-family="Georgia, serif" font-size="18" opacity="0.45">Media Placeholder</text>
 </svg>

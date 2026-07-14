@@ -54,7 +54,7 @@ export function Hero() {
                   className="absolute -inset-6 rounded-full bg-gradient-to-br from-gold/40 via-lavender/30 to-well-blue/30 blur-2xl"
                   aria-hidden="true"
                 />
-                <div className="relative rounded-full p-1 bg-gradient-to-br from-gold via-lavender to-well-blue">
+                <div className="relative rounded-full p-1 bg-gradient-to-br from-lilac via-violet to-well-purple">
                   <Image
                     src={siteConfig.logo}
                     alt={`${siteConfig.name} logo`}

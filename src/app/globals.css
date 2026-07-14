@@ -23,11 +23,11 @@
 
   body {
     @apply bg-white font-sans antialiased;
-    color: #0b1a3d;
+    color: #1a2048;
   }
 
   :focus-visible {
-    outline: 2px solid #2d9cdb;
+    outline: 2px solid #6b4fa3;
     outline-offset: 2px;
   }
 }
@@ -35,11 +35,11 @@
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110 hover:shadow-lg;
-    background-image: linear-gradient(135deg, #2d9cdb 0%, #003399 100%);
+    background-image: linear-gradient(135deg, #6b4fa3 0%, #28346d 100%);
   }
 
   .btn-primary:focus-visible {
-    outline: 2px solid #2d9cdb;
+    outline: 2px solid #6b4fa3;
     outline-offset: 2px;
   }
 
@@ -50,8 +50,8 @@
   }
 
   .btn-secondary:hover {
-    border-color: #b8a2c8;
-    background-color: rgba(184, 162, 200, 0.2);
+    border-color: #c4a8e0;
+    background-color: rgba(196, 168, 224, 0.25);
   }
 
   .btn-secondary:focus-visible {
@@ -61,27 +61,27 @@
 
   .btn-outline {
     @apply inline-flex items-center justify-center rounded-full border-2 px-6 py-3 text-sm font-semibold transition-colors;
-    border-color: #2d9cdb;
-    color: #003399;
+    border-color: #6b4fa3;
+    color: #28346d;
   }
 
   .btn-outline:hover {
-    background-color: #2d9cdb;
+    background-color: #6b4fa3;
     color: #ffffff;
   }
 
   .btn-outline:focus-visible {
-    outline: 2px solid #2d9cdb;
+    outline: 2px solid #6b4fa3;
     outline-offset: 2px;
   }
 
   .btn-accent {
     @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110;
-    background-color: #e84a8a;
+    background-color: #a855f7;
   }
 
   .btn-accent:focus-visible {
-    outline: 2px solid #e84a8a;
+    outline: 2px solid #a855f7;
     outline-offset: 2px;
   }
 
@@ -94,25 +94,25 @@
   }
 
   .section-blush {
-    background-color: #f5e6e8;
+    background-color: #f4eff8;
   }
 
   .section-lavender {
-    background-color: rgba(184, 162, 200, 0.1);
+    background-color: rgba(196, 168, 224, 0.15);
   }
 
   .brand-capsule {
     @apply rounded-full px-4 py-2 text-sm font-medium;
-    color: #0b1a3d;
+    color: #1a2048;
     background-image: linear-gradient(
       90deg,
-      rgba(45, 156, 219, 0.12) 0%,
-      rgba(184, 162, 200, 0.18) 50%,
-      rgba(198, 160, 165, 0.12) 100%
+      rgba(107, 79, 163, 0.12) 0%,
+      rgba(196, 168, 224, 0.2) 50%,
+      rgba(232, 221, 245, 0.3) 100%
     );
   }
 
   .logo-glow {
-    box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.4);
+    box-shadow: 0 0 0 3px rgba(196, 168, 224, 0.5);
   }
 }

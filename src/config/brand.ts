@@ -1,36 +1,40 @@
 /**
  * The Well Global brand palette
- * Derived from official logo gradient + SHE LEADS WELL event branding
+ * Primary: deep purple #28346D with violet, lilac, and lavender accents
  */
 export const brandColors = {
-  // Logo blues
-  wellBlue: "#2D9CDB",
-  wellBlueLight: "#B8C9EB",
-  wellBlueDeep: "#003399",
+  // Primary purple family
+  wellPurple: "#28346D",
+  wellViolet: "#6B4FA3",
+  wellLilac: "#C4A8E0",
+  wellLavender: "#E8DDF5",
 
-  // Legacy alias (maps to vibrant azure)
-  wellBlueClassic: "#3E8FCC",
+  // Tailwind alias keys (well-blue* map to purple so existing classes keep working)
+  wellBlue: "#6B4FA3",
+  wellBlueLight: "#C4A8E0",
+  wellBlueDeep: "#28346D",
 
-  // Navy & neutrals
-  deepNavy: "#0B1A3D",
-  midnight: "#06152A",
+  // Neutrals
+  deepNavy: "#1A2048",
+  midnight: "#121633",
   white: "#FFFFFF",
-  softGray: "#F4F6F8",
-  silver: "#D9E2EA",
+  softGray: "#F6F4FA",
+  silver: "#DDD6E8",
   black: "#000000",
 
-  // SHE LEADS accent palette
-  mauve: "#C6A0A5",
-  lavender: "#B8A2C8",
-  hotPink: "#E84A8A",
+  // Soft accents
+  mauve: "#B89BC9",
+  lavender: "#C4A8E0",
+  hotPink: "#A855F7",
   gold: "#C9A962",
-  blush: "#F5E6E8",
-  peach: "#E8C4B8",
+  blush: "#F4EFF8",
+  peach: "#E8D5F0",
 } as const;
 
 export const brandGradients = {
-  logo: "linear-gradient(180deg, #B8C9EB 0%, #2D9CDB 50%, #003399 100%)",
-  hero: "linear-gradient(135deg, #0B1A3D 0%, #003399 45%, #B8A2C8 100%)",
-  button: "linear-gradient(135deg, #2D9CDB 0%, #003399 100%)",
-  capsule: "linear-gradient(90deg, rgba(45,156,219,0.15) 0%, rgba(184,162,200,0.2) 50%, rgba(198,160,165,0.15) 100%)",
+  logo: "linear-gradient(180deg, #E8DDF5 0%, #6B4FA3 50%, #28346D 100%)",
+  hero: "linear-gradient(135deg, #1A2048 0%, #28346D 45%, #6B4FA3 100%)",
+  button: "linear-gradient(135deg, #6B4FA3 0%, #28346D 100%)",
+  capsule:
+    "linear-gradient(90deg, rgba(107,79,163,0.15) 0%, rgba(196,168,224,0.25) 50%, rgba(232,221,245,0.3) 100%)",
 } as const;
