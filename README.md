@@ -187,15 +187,12 @@ Update `siteConfig.url` in `src/config/site.ts` to your production domain for co
 
 | Name | Hex | Usage |
 |------|-----|-------|
-| Well Blue | `#2D9CDB` | Primary buttons, links, icons |
-| Well Blue Light | `#B8C9EB` | Logo gradient top, soft highlights |
-| Well Blue Deep | `#003399` | Logo gradient bottom, headings accent |
-| Deep Navy | `#0B1A3D` | Headers, footer, emphasis sections |
-| Mauve | `#C6A0A5` | Warm accent, footer gradient |
-| Lavender | `#B8A2C8` | Soft accent, hover states |
-| Hot Pink | `#E84A8A` | Energetic CTA accent |
-| Gold | `#C9A962` | Logo ring, social hover |
-| Blush | `#F5E6E8` | Alternate section backgrounds |
+| Well Purple | `#28346D` | Primary brand, headers, deep accents |
+| Violet | `#6B4FA3` | Buttons, links, icons |
+| Lilac | `#C4A8E0` | Soft highlights, hovers |
+| Lavender | `#E8DDF5` | Light accents, section tint |
+| Deep Navy | `#1A2048` | Body text, dark sections |
+| Blush | `#F4EFF8` | Soft section backgrounds |
 
 Full palette reference: `src/config/brand.ts`
 
