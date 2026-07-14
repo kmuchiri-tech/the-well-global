@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans antialiased;
+    color: #0b1a3d;
+  }
+
+  :focus-visible {
+    outline: 2px solid #2d9cdb;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110 hover:shadow-lg;
+    background-image: linear-gradient(135deg, #2d9cdb 0%, #003399 100%);
+  }
+
+  .btn-primary:focus-visible {
+    outline: 2px solid #2d9cdb;
+    outline-offset: 2px;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border-2 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors;
+    border-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-secondary:hover {
+    border-color: #b8a2c8;
+    background-color: rgba(184, 162, 200, 0.2);
+  }
+
+  .btn-secondary:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-full border-2 px-6 py-3 text-sm font-semibold transition-colors;
+    border-color: #2d9cdb;
+    color: #003399;
+  }
+
+  .btn-outline:hover {
+    background-color: #2d9cdb;
+    color: #ffffff;
+  }
+
+  .btn-outline:focus-visible {
+    outline: 2px solid #2d9cdb;
+    outline-offset: 2px;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110;
+    background-color: #e84a8a;
+  }
+
+  .btn-accent:focus-visible {
+    outline: 2px solid #e84a8a;
+    outline-offset: 2px;
+  }
+
+  .section-padding {
+    @apply px-4 py-16 sm:px-6 lg:px-8 lg:py-24;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .section-blush {
+    background-color: #f5e6e8;
+  }
+
+  .section-lavender {
+    background-color: rgba(184, 162, 200, 0.1);
+  }
+
+  .brand-capsule {
+    @apply rounded-full px-4 py-2 text-sm font-medium;
+    color: #0b1a3d;
+    background-image: linear-gradient(
+      90deg,
+      rgba(45, 156, 219, 0.12) 0%,
+      rgba(184, 162, 200, 0.18) 50%,
+      rgba(198, 160, 165, 0.12) 100%
+    );
+  }
+
+  .logo-glow {
+    box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.4);
+  }
+}
