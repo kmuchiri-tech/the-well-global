@@ -131,19 +131,17 @@ export default function HomePage() {
         <div className="container-wide">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <FadeIn>
-              <div className="relative mx-auto aspect-square max-w-md overflow-hidden rounded-2xl bg-soft-gray shadow-card">
-                <div className="flex h-full items-center justify-center bg-gradient-to-br from-well-blue/20 to-deep-navy/10">
+              <div className="relative mx-auto aspect-[3/4] max-w-md overflow-hidden rounded-2xl shadow-card ring-4 ring-transparent bg-brand-ombre p-1">
+                <div className="relative h-full w-full overflow-hidden rounded-xl">
                   <Image
-                    src={siteConfig.logo}
-                    alt=""
-                    width={200}
-                    height={200}
-                    className="rounded-full opacity-40"
+                    src={siteConfig.pastorNina.image}
+                    alt={`Portrait of ${siteConfig.pastorNina.name}`}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 768px) 100vw, 28rem"
+                    priority
                   />
                 </div>
-                <p className="absolute bottom-4 left-0 right-0 text-center text-xs text-deep-navy/50">
-                  Pastor photo placeholder
-                </p>
               </div>
             </FadeIn>
             <FadeIn delay={0.15}>
