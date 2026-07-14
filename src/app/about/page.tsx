@@ -147,17 +147,15 @@ export default function AboutPage() {
         <div className="container-wide">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <FadeIn>
-              <div className="relative mx-auto aspect-[3/4] max-w-sm overflow-hidden rounded-2xl bg-brand-ombre p-1 shadow-card">
-                <div className="relative h-full w-full overflow-hidden rounded-xl">
-                  <Image
-                    src={siteConfig.pastorNina.aboutImage}
-                    alt={`Portrait of ${siteConfig.pastorNina.name}`}
-                    fill
-                    className="object-cover object-center"
-                    sizes="(max-width: 768px) 100vw, 24rem"
-                    priority
-                  />
-                </div>
+              <div className="mx-auto max-w-sm overflow-hidden rounded-2xl bg-brand-ombre p-1 shadow-card">
+                <Image
+                  src={siteConfig.pastorNina.aboutImage}
+                  alt={`Portrait of ${siteConfig.pastorNina.name}`}
+                  width={640}
+                  height={800}
+                  className="h-auto w-full rounded-xl object-cover"
+                  priority
+                />
               </div>
             </FadeIn>
             <FadeIn delay={0.1}>
