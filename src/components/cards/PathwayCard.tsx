@@ -16,10 +16,10 @@ const iconMap: Record<string, LucideIcon> = {
 };
 
 const accentStyles = [
-  { bg: "bg-well-blue/10", hover: "group-hover:bg-well-blue", text: "text-well-blue" },
-  { bg: "bg-lavender/20", hover: "group-hover:bg-lavender", text: "text-lavender" },
-  { bg: "bg-mauve/20", hover: "group-hover:bg-mauve", text: "text-mauve" },
-  { bg: "bg-hot-pink/10", hover: "group-hover:bg-hot-pink", text: "text-hot-pink" },
+  { bg: "bg-well-purple/10", hover: "group-hover:bg-well-purple", text: "text-well-purple" },
+  { bg: "bg-violet/15", hover: "group-hover:bg-violet", text: "text-violet" },
+  { bg: "bg-rose/15", hover: "group-hover:bg-rose", text: "text-rose" },
+  { bg: "bg-well-pink/10", hover: "group-hover:bg-well-pink", text: "text-well-pink" },
 ];
 
 interface PathwayCardProps {

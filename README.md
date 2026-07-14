@@ -187,12 +187,15 @@ Update `siteConfig.url` in `src/config/site.ts` to your production domain for co
 
 | Name | Hex | Usage |
 |------|-----|-------|
-| Well Purple | `#28346D` | Primary brand, headers, deep accents |
-| Violet | `#6B4FA3` | Buttons, links, icons |
-| Lilac | `#C4A8E0` | Soft highlights, hovers |
-| Lavender | `#E8DDF5` | Light accents, section tint |
-| Deep Navy | `#1A2048` | Body text, dark sections |
-| Blush | `#F4EFF8` | Soft section backgrounds |
+| Well Purple | `#28346D` | Deep brand base |
+| Violet | `#6B4FA3` | Mid ombre / buttons start |
+| Lilac | `#C4A8E0` | Soft mid-tone |
+| Rose | `#D4789C` | Warm transition |
+| Well Pink | `#EC5F8F` | Ombre finish / accents |
+| Soft Pink | `#F7D0DF` | Light highlights |
+| Blush | `#F9EEF4` | Soft section backgrounds |
+
+Ombre flows: purple → violet → lilac → rose → pink.
 
 Full palette reference: `src/config/brand.ts`
 

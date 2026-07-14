@@ -9,7 +9,7 @@ export function PageHero({ title, subtitle }: PageHeroProps) {
   return (
     <section aria-labelledby="page-hero-heading" className="relative overflow-hidden bg-brand-hero">
       <div
-        className="absolute inset-0 bg-gradient-to-r from-lavender/15 via-transparent to-mauve/10"
+        className="absolute inset-0 bg-gradient-to-r from-violet/20 via-transparent to-well-pink/20"
         aria-hidden="true"
       />
       <div className="container-wide relative px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
@@ -22,7 +22,7 @@ export function PageHero({ title, subtitle }: PageHeroProps) {
               {title}
             </h1>
             {subtitle && (
-              <p className="mt-6 text-lg leading-relaxed text-well-blue-light/90">
+              <p className="mt-6 text-lg leading-relaxed text-soft-pink/95">
                 {subtitle}
               </p>
             )}

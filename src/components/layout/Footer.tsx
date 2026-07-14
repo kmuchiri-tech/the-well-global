@@ -11,7 +11,7 @@ import { Logo } from "@/components/ui/Logo";
 export function Footer() {
   return (
     <footer className="bg-brand-footer text-silver" aria-label="Site footer">
-      <div className="h-1 bg-gradient-to-r from-well-blue via-lavender to-mauve" aria-hidden="true" />
+      <div className="brand-ombre-bar" aria-hidden="true" />
       <div className="container-wide section-padding">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div>

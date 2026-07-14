@@ -35,23 +35,24 @@
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110 hover:shadow-lg;
-    background-image: linear-gradient(135deg, #6b4fa3 0%, #28346d 100%);
+    /* Purple → pink ombre */
+    background-image: linear-gradient(135deg, #6b4fa3 0%, #9a5fb8 45%, #ec5f8f 100%);
   }
 
   .btn-primary:focus-visible {
-    outline: 2px solid #6b4fa3;
+    outline: 2px solid #ec5f8f;
     outline-offset: 2px;
   }
 
   .btn-secondary {
     @apply inline-flex items-center justify-center rounded-full border-2 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition-colors;
-    border-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.45);
     background-color: rgba(255, 255, 255, 0.1);
   }
 
   .btn-secondary:hover {
-    border-color: #c4a8e0;
-    background-color: rgba(196, 168, 224, 0.25);
+    border-color: #f7d0df;
+    background-color: rgba(236, 95, 143, 0.2);
   }
 
   .btn-secondary:focus-visible {
@@ -66,7 +67,8 @@
   }
 
   .btn-outline:hover {
-    background-color: #6b4fa3;
+    background-image: linear-gradient(135deg, #6b4fa3 0%, #ec5f8f 100%);
+    border-color: transparent;
     color: #ffffff;
   }
 
@@ -77,11 +79,11 @@
 
   .btn-accent {
     @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:brightness-110;
-    background-color: #a855f7;
+    background-image: linear-gradient(135deg, #d4789c 0%, #ec5f8f 100%);
   }
 
   .btn-accent:focus-visible {
-    outline: 2px solid #a855f7;
+    outline: 2px solid #ec5f8f;
     outline-offset: 2px;
   }
 
@@ -94,11 +96,11 @@
   }
 
   .section-blush {
-    background-color: #f4eff8;
+    background-color: #f9eef4;
   }
 
   .section-lavender {
-    background-color: rgba(196, 168, 224, 0.15);
+    background-color: rgba(196, 168, 224, 0.14);
   }
 
   .brand-capsule {
@@ -108,11 +110,22 @@
       90deg,
       rgba(107, 79, 163, 0.12) 0%,
       rgba(196, 168, 224, 0.2) 50%,
-      rgba(232, 221, 245, 0.3) 100%
+      rgba(236, 95, 143, 0.15) 100%
+    );
+  }
+
+  .brand-ombre-bar {
+    height: 0.25rem;
+    background-image: linear-gradient(
+      90deg,
+      #28346d 0%,
+      #6b4fa3 35%,
+      #c4a8e0 65%,
+      #ec5f8f 100%
     );
   }
 
   .logo-glow {
-    box-shadow: 0 0 0 3px rgba(196, 168, 224, 0.5);
+    box-shadow: 0 0 0 3px rgba(212, 120, 156, 0.45);
   }
 }
