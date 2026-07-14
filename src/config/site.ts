@@ -14,6 +14,7 @@ export const siteConfig = {
     linktree: "https://linktr.ee/NinaDAnderson",
     facebook: "https://www.facebook.com/share/1DGcvmV7W1/?mibextid=wwXIfr",
     image: "/images/pastor-nina.png",
+    aboutImage: "/images/pastor-nina-about.png",
     armedAndDangerousVideoId: "bXKZBqevYf0",
     youtubePlaylistId: "PLKuBc6F_MMouR9apFIa-Fpiab2Wp03xGd",
   },

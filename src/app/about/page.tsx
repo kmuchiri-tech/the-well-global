@@ -150,17 +150,10 @@ export default function AboutPage() {
               <div className="relative mx-auto aspect-[3/4] max-w-sm overflow-hidden rounded-2xl bg-brand-ombre p-1 shadow-card">
                 <div className="relative h-full w-full overflow-hidden rounded-xl">
                   <Image
-                    src={siteConfig.pastorNina.image}
+                    src={siteConfig.pastorNina.aboutImage}
                     alt={`Portrait of ${siteConfig.pastorNina.name}`}
                     fill
-                    className="object-cover object-top"
-                    sizes="(max-width: 768px) 100vw, 24rem"
-                  />
-                </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.1}>
-              <h2 id="pastor-nina-heading" className="font-serif text-3xl font-bold text-white sm:text-4xl">
+                    className="object-cover object-center" className="font-serif text-3xl font-bold text-white sm:text-4xl">
                 {siteConfig.pastorNina.name}
               </h2>
               <p className="mt-2 text-well-blue font-semibold">Founder & Lead Pastor</p>
